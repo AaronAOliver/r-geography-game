@@ -20,3 +20,6 @@ Press the button to change the color of highlighted map regions to a random colo
 
 #### Reset
 Return to the main menu of the game.
+
+##### Known Bugs
+1. Pressing the reset button many times can cause the buttons to become desynchronized. This appears related to the package shiny (https://github.com/rstudio/shiny) and how it handles buttons that modify images.
